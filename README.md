@@ -1,2 +1,2 @@
 # final-project
-final website project
+final website project about myself
