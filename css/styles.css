@@ -3,9 +3,18 @@
 }
 
 p {
-    text-align: center; color:whitesmoke;
+    color:whitesmoke; font-size: large;
 }
 
 h1,h2 {
     text-align: center; 
+}
+
+.parent {
+    text-align: center;
+}
+
+.child {
+    display: inline-block;
+    vertical-align: middle;
 }
