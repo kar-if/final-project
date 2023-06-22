@@ -3,5 +3,9 @@
 }
 
 p {
-    text-align: center; border: 2px solid black;
+    text-align: center; color:whitesmoke;
+}
+
+h1,h2 {
+    text-align: center;
 }
