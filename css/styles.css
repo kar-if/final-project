@@ -19,3 +19,28 @@ h1,h2 {
     display: inline-block;
     vertical-align: middle;
 }
+
+/* Styles for Navigation */
+.nav-h {
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 5;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+.nav-h li {
+    float: left;
+}
+
+.nav-h li {
+    width: 150px;
+}
