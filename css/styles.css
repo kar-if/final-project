@@ -23,7 +23,7 @@ h1,h2 {
 /* Styles for Navigation */
 .nav-h {
     list-style-type: none;
-    background-color: black;
+    background-color: rgb(39, 39, 39);
     margin: 0;
     padding: 5;
     overflow: hidden;
@@ -43,4 +43,13 @@ li a {
 
 .nav-h li {
     width: 150px;
+}
+
+.active {
+    background-color: black;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+    color:black ;
 }
