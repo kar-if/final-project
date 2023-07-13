@@ -7,7 +7,7 @@ p {
     color:whitesmoke; font-size: x-large;
 }
 
-h1,h2 {
+h1 {
     text-align: center; 
 }
 
@@ -53,3 +53,26 @@ li a:hover {
     background-color: whitesmoke;
     color:black ;
 }
+
+.position-me {
+    position: absolute;
+    display: inline;
+    left: 130px;
+    top: 175px;
+}
+
+.position-why {
+    position: absolute;
+    display: inline;
+    left: 700px;
+    top: 175px;
+}
+
+.position-blk {
+    position: absolute;
+    display: inline;
+    right: 150px;
+    top: 175px;
+   
+}
+
