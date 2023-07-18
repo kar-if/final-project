@@ -1,5 +1,4 @@
 :root{
-    background-color: burlywood; 
     font-family: Garamond, serif;
 }
 
@@ -8,7 +7,12 @@ p {
 }
 
 h1 {
-    text-align: center; 
+    text-align: center;
+    font-size: 50px; 
+}
+
+h1, h2 {
+    color: #5a535a;
 }
 
 .parent {
@@ -23,7 +27,7 @@ h1 {
 /* Styles for Navigation */
 .nav-h {
     list-style-type: none;
-    background-color: rgb(39, 39, 39);
+    background-color:#363036;
     margin: 0;
     padding: 5;
     overflow: hidden;
@@ -46,12 +50,12 @@ li a {
 }
 
 .active {
-    background-color: black;
+    background-color: #4A4054;
 }
 
 li a:hover {
-    background-color: whitesmoke;
-    color:black ;
+    background-color: rgb(26, 26, 26);
+    color:whitesmoke ;
 }
 
 .position-me {
@@ -76,3 +80,10 @@ li a:hover {
    
 }
 
+/* Background Image */
+
+:root {
+    background-image: url(https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: 200em;
+}
