@@ -1,19 +1,22 @@
 :root{
     font-family: Garamond, serif;
+    --primary: rgb(26, 26, 26);
+    --secondary: #363036;
+    --accent: #4A4054;
 }
 
 .background-solid {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     width: 119em;
     height: 25em;
-    box-shadow: 2px 2px 5px #454545;
+    box-shadow: 2px 2px 10px var(--primary);
 }
 
 .background-solid2 {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     width: 119em;
     height: 45em;
-    box-shadow: 2px 2px 5px #454545;
+    box-shadow: 2px 2px 5px var(--primary);
 }
 
 p {
@@ -42,7 +45,7 @@ h2 {
 /* Styles for Navigation */
 .nav-h {
     list-style-type: none;
-    background-color:#363036;
+    background-color:var(--secondary);
     margin: 0;
     padding: 5;
     overflow: hidden;
@@ -65,11 +68,11 @@ li a {
 }
 
 .active {
-    background-color: #4A4054;
+    background-color: var(--accent);
 }
 
 li a:hover {
-    background-color: rgb(26, 26, 26);
+    background-color: var(--primary);
     color:whitesmoke ;
 }
 
