@@ -5,12 +5,6 @@
     --accent: #4A4054;
 }
 
-.background-solid {
-    background-color: whitesmoke;
-    width: 119em;
-    height: 25em;
-    box-shadow: 2px 2px 10px var(--primary);
-}
 
 .background-solid2 {
     background-color: whitesmoke;
@@ -30,9 +24,10 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: whitesmoke;
 }
 
+/* Page 2 main */
 .parent {
     text-align: center;
 }
@@ -40,6 +35,23 @@ h2 {
 .child {
     display: inline-block;
     vertical-align: middle;
+    border: 10px solid var(--primary);
+    background-color: var(--primary);
+}
+
+.child-2 {
+    display: inline-block;
+    vertical-align: middle;
+    border: 10px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.child-2 p {
+    color: black;
+}
+
+.child-2 h2 {
+    color: black;
 }
 
 /* Styles for Navigation */
@@ -76,25 +88,49 @@ li a:hover {
     color:whitesmoke ;
 }
 
+/* Page 1 main */
+.background-solid {
+    background-color: whitesmoke;
+    width: 119em;
+    height: 29em;
+    box-shadow: 2px 2px 10px var(--primary);
+}
+
 .position-me {
     position: absolute;
     display: inline;
     left: 130px;
-    top: 175px;
+    top: 197px;
+    border: 24px solid var(--primary);
+    background-color: var(--primary);
+    border-radius: 0px 0px 15px 15px
 }
 
 .position-why {
     position: absolute;
     display: inline;
     left: 700px;
-    top: 175px;
+    top: 197px;
+    border: 24px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.position-why p {
+    color: black;
+}
+
+.position-why h2 {
+    color: black;
 }
 
 .position-blk {
     position: absolute;
     display: inline;
     right: 150px;
-    top: 175px;
+    top: 197px;
+    border: 24px solid var(--primary);
+    background-color: var(--primary);
+    border-radius: 0px 0px 15px 15px
    
 }
 
@@ -107,3 +143,15 @@ li a:hover {
     background-size: 200em;
 }
 
+/* Mobile Version */
+@media screen and (max-width: 600px){
+.media-div{
+    grid-template-areas: 
+        "nav"
+        "left"
+        "main"
+        "right"
+        "foot";
+    }
+
+}
