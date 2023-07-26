@@ -29,7 +29,13 @@ h2 {
 
 /* Page 2 main */
 .parent {
+    display: grid;
+    background-color: var(--secondary);
+    box-shadow: 2px 2px 10px var(--primary);
+    grid-template-areas: 
+    "left center right";
     text-align: center;
+    margin: 0 70px;
 }
 
 .child {
@@ -89,28 +95,16 @@ li a:hover {
 }
 
 /* Page 1 main */
-/* Grid layout */
-
-/* .container {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 500px 500px 500px;
-}
-
-.container p {
-    background-color: var(--secondary);
-    border: 2px solid var(--secondary);
-    margin: 0;
-} */
 
 .container {
     display: grid;
     background-color: var(--secondary);
     box-shadow: 2px 2px 10px var(--primary);
     grid-template-areas: 
-    "nav nav nav nav" 
-    "left main main right";
+    "left center right";
     text-align: center;
+    margin: 0 70px;
+    height: 300px;
 }
 
 .contain-left {
@@ -119,7 +113,7 @@ li a:hover {
 }
 
 .contain-center {
-    grid-area:main;
+    grid-area:center;
     background-color:whitesmoke ;
     border: 3px solid black;
 }
