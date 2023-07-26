@@ -1,8 +1,8 @@
 :root{
     font-family: Garamond, serif;
     --primary: rgb(26, 26, 26);
-    --secondary: #363036;
-    --accent: #4A4054;
+    --secondary: #333;
+    --accent: whitesmoke;
 }
 
 :root {
@@ -25,6 +25,7 @@ h1 {
 
 h2 {
     color: whitesmoke;
+    font-size: 30px;
 }
 
 /* Page 2 main */
@@ -69,7 +70,7 @@ h2 {
 /* Styles for Navigation */
 .nav-h {
     list-style-type: none;
-    background-color:var(--secondary);
+    background-color:var(--primary);
     margin: 0;
     padding: 5;
     overflow: hidden;
@@ -92,12 +93,12 @@ li a {
 }
 
 .active {
-    background-color: var(--accent);
+    background-color: #333;
 }
 
 li a:hover {
-    background-color: var(--primary);
-    color:whitesmoke ;
+    background-color: whitesmoke;
+    color:black ;
 }
 
 /* Page 1 main */
@@ -110,34 +111,31 @@ li a:hover {
     grid-template-areas: 
     "left center right";
     text-align: center;
-    /* margin: 70px; */
-    height: 300px;
-    gap: 30px;
+    margin: 70px;
+    height: 350px;
+    gap: 15px;
+    border-radius: 24px;
 }
 
 .contain-left {
     grid-area: left;
     border: 3px solid var(--primary);
-    border-radius: 0 0 24px 24px;
+    border-radius: 24px;
     background-color: var(--primary);
 }
 
 .contain-center {
     grid-area:center;
-    background-color:whitesmoke ;
-    border: 3px solid whitesmoke;
-}
-
-.contain-center p{
-    color: black;
+    background-color: var(--primary) ;
+    border: 3px solid var(--primary);
+    border-radius: 24px;
 }
 
 .contain-right {
    grid-area: right;
    border: 3px solid var(--primary);
-   border-radius: 0 0 24px 24px;
+   border-radius: 24px;
    background-color: var(--primary);
-   
 }
 
 /* Mobile Version */
