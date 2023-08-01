@@ -24,6 +24,10 @@ h1 {
     text-shadow: 2px 2px 15px #070707;
 }
 
+.h1-1 h1 {
+    margin-top: 75px;
+}
+
 h2 {
     color: whitesmoke;
     font-size: 30px;
@@ -107,15 +111,16 @@ li a:hover {
 
 .container {
     display: grid;
-    background-color: whitesmoke;
-    border: 20px solid whitesmoke;
+    background-color: transparent;
+    border: 20px solid transparent;
     /* box-shadow: 2px 2px 10px var(--primary); */
     grid-template-areas: 
     "left center right";
     text-align: center;
     /* margin: 70px; */
+    margin-top: 110px;
     height: 350px;
-    gap: 15px;
+    gap: 30px;
     justify-content: center;
     /* border-radius: 24px; */
 }
@@ -125,8 +130,8 @@ li a:hover {
     border: 3px solid var(--primary);
     border-radius: 24px;
     background-color: var(--primary);
-    box-shadow: 2px 2px 10px var(--primary);
-    width: 325px;
+    /* box-shadow: 2px 2px 10px var(--primary); */
+    width: 350px;
 }
 
 .contain-center {
@@ -134,8 +139,8 @@ li a:hover {
     background-color: var(--primary) ;
     border: 3px solid var(--primary);
     border-radius: 24px;
-    box-shadow: 2px 2px 10px var(--primary);
-    width: 325px;
+    /* box-shadow: 2px 2px 10px var(--primary); */
+    width: 350px;
 }
 
 .contain-right {
@@ -143,8 +148,8 @@ li a:hover {
    border: 3px solid var(--primary);
    border-radius: 24px;
    background-color: var(--primary);
-   box-shadow: 2px 2px 10px var(--primary);
-   width: 325px;
+   /* box-shadow: 2px 2px 10px var(--primary); */
+   width: 350px;
 }
 
 /* Mobile Version */
