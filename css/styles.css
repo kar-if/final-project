@@ -1,5 +1,5 @@
 :root{
-    font-family: Garamond, serif;
+    font-family: Arial, sans-serif;
     --primary: rgb(26, 26, 26);
     --secondary: #333;
     --accent: whitesmoke;
@@ -7,7 +7,7 @@
 
 :root {
     background-color: black;
-    background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0.9), 
+    background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0), 
     rgba(0, 0, 0, 0)), url(https://images.unsplash.com/photo-1496150458551-140441714f2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     background-repeat: no-repeat;
     background-size: 120em;
@@ -24,7 +24,7 @@ h1 {
     text-shadow: 2px 2px 15px #070707;
 }
 
-.h1-1 h1 {
+h1 {
     margin-top: 75px;
 }
 
@@ -34,43 +34,48 @@ h2 {
 }
 
 /* Page 2 main */
+
 .container-2 {
     display: grid;
-    background-color: whitesmoke;
-    border: 20px solid whitesmoke;
-    box-shadow: 2px 2px 10px var(--primary);
+    background-color: transparent;
+    border: 20px solid transparent;
+    border-radius: 24px;
     grid-template-areas: 
     "left center right";
     text-align: center;
     /* margin: 70px; */
-    height: 500px;
-    gap: 30px;
-    margin-top: 550px;
+    height: 350px;
+    gap: 50px;
+    margin-top: 110px;
+    /* margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 550px; */
     font-size: 25px;
+    justify-content: center;
 }
 
 .contain-left-2 {
     grid-area: left;
     border: 3px solid var(--primary);
-    border-radius: 0 0 24px 24px;
+    border-radius: 24px;
     background-color: var(--primary);
+    width: 350px;
 }
 
 .contain-center-2 {
     grid-area:center;
-    background-color:whitesmoke ;
-    border: 3px solid whitesmoke;
-}
-
-.contain-center-2 p {
-    color: black;
+    border: 3px solid var(--primary);
+    border-radius: 24px;
+    background-color: var(--primary);
+    width: 350px;
 }
 
 .contain-right-2 {
     grid-area: right;
     border: 3px solid var(--primary);
-    border-radius: 0 0 24px 24px;
+    border-radius: 24px;
     background-color: var(--primary);
+    width: 350px;
 }
 
 /* Styles for Navigation */
